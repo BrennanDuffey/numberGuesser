@@ -1,77 +1,180 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
   </head>
+    
+<!--Body-->
   <body>
+
+<!--Header-->    
     <header>
       <h1><strong>NUMBER</strong>GUESSER</h1>
-      <h4> ULTIMATE CHALLENGER EDITION </h4>
+      <h4 class="line"><span> ULTIMATE CHALLENGER EDITION</span></h4>
     </header>
+    
+<!--Main Content-->
     <main>
+
+<!--Column 1-->
       <section class="column-1">
+        
+        <!--Set Range-->
         <article>
+          <div>
           <h3>Set Range</h3>
           <form>
-            <label>Min Range
-              <input type="text">
-            </label>
-            <label>Max Range
-              <input type="text">
-            </label>
-            <button type="submit">UPDATE</button>
+            <div class="range"><label text="Min Range">Min Range</label>
+            <input type="text"></div>
+            <div class="range"><label text="Max Range">Max Range</label>
+            <input type="text"></div>
+            <div class="range"><button class="update">UPDATE</button></div>
           </form>
+        </div>
         </article>
+      
+<!--Current Range-->
         <article>
-          <p>The Current Range is 1 to 100</p>
+          <p>The Current Range is <span class='numbers'><strong>1</strong></span>to<span class='numbers'><strong>100</strong></span></p>
+
+<!--Challenger 1-->
           <h3>Challenger 1</h3>
           <form>
+            <div class="c-name">
             <label>Name
               <input type="text">
             </label>
+          </div>
+          <div class="challenger">
             <label>Guess
-              <input type="text">
+              <input class="guess" type="text">
             </label>
+          </div>
           </form>
+
+<!---Challenger 2-->
           <h3>Challenger 2</h3>
           <form>
+            <div class="c-name">
             <label>Name
-              <input type="text">
+              <input  type="text">
             </label>
+          </div>
+          <div class="challenger">
             <label>Guess
-              <input type="text">
+              <input class="guess"s type="text">
             </label>
+          </div>
           </form>
-          <button>SUBMIT GUESS</button>
+
+<!--Submit Buttons-->       <button class="submit">SUBMIT GUESS</button>
           <button>RESET GAME</button>
           <button>CLEAR GAME</button>
         </article>
+        
+<!--Lastest Score-->
         <article>
-          <h3>Latest Score</h3>
-          <p>Challenger 1 Name</p>
+        <h3>Latest Score</h3>
+          <div class="lastest-score">
+          <h4>Challenger 1 Name</h4>
           <p>current guess</p>
-          <p>97</p>
-          <p> that's too high</p>
-          <hr />
-          <!-- Not sure to use two separate divs or vertical align the hr please ask me if you have a question -->
-          <p>Challenger 2 Name</p>
+          <p><span class="current">97</span></p>
+          <p>that's too high</p>
+          </div>
+          
+        <div class="outer-line">
+        <div class="inner-line">
+        </div>
+        </div>
+
+          <div class="lastest-score-2">
+          <h4>Challenger 2 Name</h4>
           <p>current guess</p>
-          <p>97</p>
+          <p><span class="current">3</span></p>
           <p>that's too low</p>
+        </div>
         </article>
+      
       </section>
+
+<!--Column 2-->
       <section class="column-2">
-        <article>
-          <p>Challenger 1 name</p>
+
+        <!--Card 1-->
+        <article >
+          <div class="card">
+          <h4>Challenger 1 name</h4>
           <p>vs</p>
-          <p>Challenger 2 name</p>
+          <h4>Challenger 2 name</h4>
+          </div>
+
           <hr />
-          <h2><strong>Challenger name of winner</strong></h2> 
-          <h2>WINNER</h2>
+
+          <div class="c-winner">
+          <h2 class="winner"><strong>CHALLENGER 1 NAME</strong></h2> 
+          <p class='winner2'>WINNER</p>
+          </div>
+
           <hr />
+
+          <div class="card">
           <p><strong>#</strong> GUESSES</p>
-          <p>Time Elapsed</p>
-          <button>Exit button</button>
+          <p><strong>00</strong>MINUTES</p>
+          <button class="exit">X</button>
+          </div>
+        </article>
+
+    <!--Card 2-->
+        <article >
+          <div class="card">
+          <h4>Challenger 1 name</h4>
+          <p>vs</p>
+          <h4>Challenger 2 name</h4>
+          </div>
+
+          <hr />
+
+          <div class="c-winner">
+          <h2 class="winner"><strong>CHALLENGER 1 NAME</strong></h2> 
+          <p class='winner2'>WINNER</p>
+          </div>
+
+          <hr />
+
+          <div class="card">
+          <p><strong>#</strong> GUESSES</p>
+          <p><strong>00</strong>MINUTES</p>
+          <button class="exit">X</button>
+          </div>
+
+        </article>
+
+  <!--Card 3-->
+        <article>
+          <div class="card">
+          <h4>Challenger 1 name</h4>
+          <p>vs</p>
+          <h4>Challenger 2 name</h4>
+          </div>
+
+          <hr />
+
+          <div class="c-winner">
+          <h2 class="winner"><strong>CHALLENGER 1 NAME</strong></h2>
+          <p class='winner2'>WINNER</p>
+          </div>
+
+          <hr />
+
+          <div class="card">
+          <p><strong>#</strong> GUESSES</p>
+          <p><strong>00</strong>MINUTES</p>
+          <button class="exit">X</button>
+          </div>
+
         </article>
       </section>
     </main>
