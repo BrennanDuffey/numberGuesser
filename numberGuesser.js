@@ -6,6 +6,7 @@ var minInteger;
 var maxInteger;
 var updateButton = document.querySelector(".update");
 var challengerNameOneInput = document.querySelector(".challenger-1-name-input");
+
 var challengerNameTwoInput = document.querySelector(".challenger-2-name-input");
 var challengerNameOne = document.querySelector(".challenger-1-name");
 var challengerNameTwo = document.querySelector(".challenger-2-name");
