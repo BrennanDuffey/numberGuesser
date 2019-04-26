@@ -99,6 +99,25 @@ form{
   justify-content: space-between;
 }
 
+.error-message, .error-message-guess-one, .error-message-guess-two {
+  display: none;
+}
+
+
+.error-message-style{
+  color: #DD1972;
+}
+
+.error-message-style img{
+  width: 10px;
+}
+
+.error-message-style p{
+  display: inline-block;
+}
+
+
+
 
 .range{
   width: 28%;
@@ -251,6 +270,7 @@ button{
   font-style: bold;
 }
 
+<<<<<<< HEAD
 .c-winner{
   display: flex;
   flex-wrap: wrap;
@@ -258,6 +278,10 @@ button{
   margin: auto;
   width: 50%;
   color: #6e6e6e;
+=======
+.middle-row{
+  text-align: center;
+>>>>>>> 71b35100c9073518aab29e48f2ea98ea3e0c3331
 }
 
 .winner{
@@ -270,7 +294,11 @@ button{
   text-align: center;
   display: block;
   font-weight: 300;
+<<<<<<< HEAD
   margin: 1%;
+=======
+  margin: 0;
+>>>>>>> 71b35100c9073518aab29e48f2ea98ea3e0c3331
 }
 
 .exit{
@@ -279,7 +307,17 @@ button{
   padding: 0%;
 }
 
+.min-input{
+  border-style: solid #DD1972;
+}
 
+.max-input{
+  border-style: solid #DD1972;
+}
+
+button:focus {
+  outline: 0;
+}
 
 
 
