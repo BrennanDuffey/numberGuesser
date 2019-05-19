@@ -1,5 +1,44 @@
-<h1>Number Guesser Project</h1>
-<p>We had to follow the guidelines outlined at <a href="http://frontend.turing.io/projects/number-guesser-doubles.html"></a></p>
-<p>We accomplished the functionality from phase zero to phase three in JavaScript. Overall the CSS and HTML fit style guides and have a clean and DRY feel to them. The largest stuggle was definitely with making the functions both modular and non-repetitve. We learned how to use node to grab and interact with nested elements. Another major accomplishment was fine tuning the event listeners to properly function under different conditions. Upon further interations, some features that we would want to iron out would be error messages and their pitfalls. In additon, we would like to further research pattern attributes and how to apply it to input elements in HTML.</p>
-<h3>Turing Screen Grab</h3><img src="images/turing-screen-grab">
-<h3>Our Screen Grab</h3><img src="image/BD-KL-screen-grab">
+# NumberGuesser
+
+## Description
+
+This project is a simple game that allows two users to try and guess a random number generated in a default or user provided range. The game gives feedback on the users guess and once a user wins a card is generated with game stats on it. This was built as a paired project in 14 days.
+
+## Setup
+
+Simply start by cloning the repo:
+
+```bash
+git clone [remote-address]
+```
+This project does not have run off a local server so that's all for instillation just open the index file in the browser to play the game!!
+
+
+## Screenshots
+
+Our Project:
+ ![our screen shot](https://github.com/BrennanDuffey/numberGuesser/blob/master/images/BD-KL-screen-grab.png)
+
+Given Comp:
+ ![second screen shot](https://github.com/BrennanDuffey/numberGuesser/blob/master/images/BD-KL-screen-grab.png)
+
+
+## Emphasis of the Project
+
+Further knowledge on the following technologies/principles:
+
+- Vanilla JS
+- HTML/CSS
+- Grid/Flex styling
+- Github workflow
+- Git
+- Paired Programming
+
+## Contributors/Roles and Responsibilities
+
+All of the project was completed in driver/navigator style paired programming
+
+
+## Known Issues
+
+
