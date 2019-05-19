@@ -4,6 +4,7 @@
 
 This project is a simple game that allows two users to try and guess a random number generated in a default or user provided range. The game gives feedback on the users guess and once a user wins a card is generated with game stats on it. This was built as a paired project in 14 days.
 
+
 ## Setup
 
 Simply start by cloning the repo:
