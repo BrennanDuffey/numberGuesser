@@ -4,6 +4,15 @@
 
 This project is a simple game that allows two users to try and guess a random number generated in a default or user provided range. The game gives feedback on the users guess and once a user wins a card is generated with game stats on it. This was built as a paired project in 14 days.
 
+Created by:
+- Brennan Duffey: [GitHub](https://github.com/BrennanDuffey),
+                [Email](mailto:brennanduffey@gmail.com),
+                [LinkedIn](https://www.linkedin.com/in/brennan-duffey-8a387182/)
+
+- Katie Lewis: [GitHub](https://github.com/kalex19), 
+                [Email](mailto:Kale8432@colorado.edu),
+                [LinkedIn](https://www.linkedin.com/in/klewis8/)
+
 
 ## Setup
 
